@@ -1,0 +1,16 @@
+#header {
+    background-color: #171a21;
+    color: #ffffff;
+    height: 200px;
+}
+
+#content {
+    background-color: #1b2838;
+    color: #c7d5e0;
+}
+
+#footer {
+    background-color: #171a21;
+    color: #8f98a0;
+    height: 100px;
+}
