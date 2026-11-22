@@ -1,0 +1,31 @@
+/* De children: oranje vierkantjes */
+.blok {
+    background-color: #d9480f;
+    color: #ffffff;
+    width: 100px;
+    height: 100px;
+}
+
+/* Stap 1: de parent zet de children naast elkaar */
+.rij {
+    display: flex;
+    margin-bottom: 30px;
+}
+
+/* Stap 2: overal evenveel ruimte */
+.verdeeld {
+    justify-content: space-evenly;
+}
+
+/* Stap 3: horizontaal en verticaal in het midden */
+.midden {
+    justify-content: center;
+    align-items: center;   /* verticaal in het midden */
+    height: 300px;
+    background-color: #eeeeee;
+}
+
+/* Stap 4: 20px tussen elk blok */
+.met-gap {
+    gap: 20px;
+}

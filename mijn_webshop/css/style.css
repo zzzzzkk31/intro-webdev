@@ -1,3 +1,9 @@
+/* Alle blokken: padding telt mee in de breedte */
+* {
+    box-sizing: border-box;
+}
+
+/* Hele pagina: Steam-blauw, lichte tekst, geen witte rand */
 body {
     margin: 0;
     background-color: #1b2838;
@@ -5,37 +11,52 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
+/* Links: wit, zonder streep */
 a {
     color: #ffffff;
     text-decoration: none;
 }
 
 a:hover {
-    color: #ffffff;
+    color: #66c0f4;
 }
 
+/* Container: 960px breed, in het midden */
+#container {
+    width: 960px;
+    margin: 0 auto;
+}
+
+/* Header: naam links, menu rechts */
 #header {
     background-color: #171a21;
-    padding: 20px;
+    padding: 0 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 #header h1 {
-    margin: 0;
     color: #ffffff;
 }
 
-#header ul {
-    margin: 10px 0 0 0;
-    padding: 0;
+/* Menu: links naast elkaar, zonder bolletjes */
+#menu {
+    display: flex;
+    gap: 20px;
+    list-style: none;
 }
 
-#header li {
-    display: inline;
-    margin-right: 20px;
+#menu a {
     color: #c7d5e0;
     text-transform: uppercase;
 }
 
+#menu a:hover {
+    color: #ffffff;
+}
+
+/* Content: ruimte aan de binnenkant */
 #content {
     background-color: #1b2838;
     min-height: 400px;
@@ -47,10 +68,66 @@ a:hover {
     color: #ffffff;
 }
 
+/* Producten: kaarten naast elkaar, drie per rij */
+.producten {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.product {
+    width: 293px;
+    border: 1px solid #2a475e;
+    border-radius: 8px;
+    padding: 15px;
+    background-color: #16202d;
+}
+
+.product img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 4px;
+}
+
+/* Prijs: Steam-groen en vet */
+.prijs {
+    color: #a4d007;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+/* Knop: een link die eruitziet als een knop */
+.knop {
+    display: inline-block;
+    background-color: #5c7e10;
+    color: #ffffff;
+    padding: 8px 16px;
+    border-radius: 4px;
+}
+
+.knop:hover {
+    background-color: #79a316;
+    color: #ffffff;
+}
+
+/* Detailpagina: foto naast de tekst */
+.detail {
+    display: flex;
+    gap: 30px;
+    margin-top: 20px;
+}
+
+.detail img {
+    width: 450px;
+    border-radius: 8px;
+}
+
+/* Footer: donker, tekst in het midden */
 #footer {
     background-color: #171a21;
     color: #8f98a0;
-    height: 100px;
-    padding: 0 20px;
+    padding: 20px;
+    text-align: center;
     border-top: 1px solid #2a475e;
 }

@@ -1,0 +1,59 @@
+/* Alle blokken: padding telt mee in de breedte */
+* {
+    box-sizing: border-box;
+}
+
+/* Hele pagina: lettertype en kleur, geen witte rand */
+body {
+    font-family: Arial, sans-serif;
+    color: #333333;
+    margin: 0;
+}
+
+/* Container: 960px breed, in het midden */
+#container {
+    width: 960px;
+    margin: 0 auto; /* boven en onder 0, links en rechts automatisch */
+}
+
+/* Header: zwarte balk met de naam van de webshop */
+#header {
+    background-color: #111111;
+    color: #ffffff;
+    height: 100px;
+    text-align: center;   /* tekst in het midden */
+    font-size: 32px;
+    line-height: 100px;   /* tekst verticaal in het midden */
+}
+
+/* Content: wit vlak met ruimte aan de binnenkant */
+#content {
+    background-color: #ffffff;
+    padding: 20px;
+}
+
+/* Product: rand eromheen en ruimte eronder */
+.product {
+    border: 1px solid #cccccc;
+    padding: 10px;           /* ruimte binnen het product */
+    margin-bottom: 20px;     /* ruimte onder elk product */
+}
+
+.product img {
+    width: 200px;            /* alle productfoto's even breed */
+}
+
+/* Prijs: oranje en vet */
+.prijs {
+    color: #d9480f;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+/* Footer: donker, tekst in het midden */
+#footer {
+    background-color: #333333;
+    color: #ffffff;
+    padding: 20px;
+    text-align: center;
+}
