@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bestellen - Steam-keys</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div id="container">
+        <div id="header">
+            <h1>Steam-keys</h1>
+            <ul id="menu">
+                <li><a href="index.html">Producten</a></li>
+                <li><a href="#">Over ons</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </div> <!-- einde header -->
+
+        <div id="content">
+            <h2>Bestellen: Postal 2</h2>
+
+            <form class="formulier">
+                <div class="veld">
+                    <label for="voornaam">Voornaam</label>
+                    <input type="text" id="voornaam" name="voornaam" placeholder="Bijvoorbeeld: Sanne" required>
+                </div>
+
+                <div class="veld">
+                    <label for="achternaam">Achternaam</label>
+                    <input type="text" id="achternaam" name="achternaam" required>
+                </div>
+
+                <div class="veld">
+                    <label for="email">E-mailadres</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+
+                <div class="veld">
+                    <label for="aantal">Aantal</label>
+                    <input type="number" id="aantal" name="aantal" min="1" max="10" value="1" required>
+                </div>
+
+                <div class="veld">
+                    <label for="platform">Platform</label>
+                    <select id="platform" name="platform">
+                        <option value="windows">Windows</option>
+                        <option value="mac">macOS</option>
+                        <option value="linux">Linux</option>
+                    </select>
+                </div>
+
+                <div class="veld vinkje">
+                    <input type="checkbox" id="voorwaarden" name="voorwaarden" required>
+                    <label for="voorwaarden">Ik ga akkoord met de voorwaarden</label>
+                </div>
+
+                <input type="submit" value="Bestelling plaatsen" class="knop">
+            </form>
+        </div> <!-- einde content -->
+
+        <div id="footer">&copy; 2026 Steam-keys</div>
+    </div> <!-- einde container -->
+</body>
+</html>

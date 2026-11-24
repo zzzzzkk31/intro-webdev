@@ -131,3 +131,66 @@ a:hover {
     text-align: center;
     border-top: 1px solid #2a475e;
 }
+
+/* Formulier: maximaal 400px breed */
+.formulier {
+    max-width: 400px;
+    margin-top: 20px;
+}
+
+/* Elk veld: label boven het invoervak, ruimte eronder */
+.veld {
+    margin-bottom: 15px;
+}
+
+.veld label {
+    display: block;          /* label op een eigen regel */
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+/* Alle invoervelden even breed, donker in Steam-stijl */
+.veld input,
+.veld select,
+.veld textarea {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #2a475e;
+    border-radius: 4px;
+    font-size: 16px;
+    font-family: inherit;
+    background-color: #16202d;
+    color: #ffffff;
+}
+
+/* Rand lichtblauw als je in een veld zit */
+.veld input:focus,
+.veld select:focus,
+.veld textarea:focus {
+    outline: none;
+    border-color: #66c0f4;
+}
+
+/* Vinkje en label naast elkaar */
+.vinkje {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+}
+
+.vinkje input {
+    width: auto;
+}
+
+.vinkje label {
+    margin-bottom: 0;
+    font-weight: normal;
+}
+
+/* Verzendknop: geen rand, handje als cursor */
+input.knop {
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+}

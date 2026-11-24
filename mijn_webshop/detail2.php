@@ -13,14 +13,14 @@
         <div id="header">
             <h1>Steam Key Watcher</h1>
             <ul id="menu">
-                <li><a href="index.html">Home</a></li>
-                <li><a href="index.html">Games</a></li>
+                <li><a href="index.php">Home</a></li>
+                <li><a href="index.php">Games</a></li>
                 <li><a href="#">Contact</a></li>
             </ul>
         </div> <!-- einde header -->
 
         <div id="content">
-            <a href="index.html">&larr; Terug naar alle games</a>
+            <a href="index.php">&larr; Terug naar alle games</a>
 
             <div class="detail">
                 <img src="images/portal2.jpg" alt="Portal 2">
@@ -28,7 +28,7 @@
                     <h2>Portal 2</h2>
                     <p class="prijs">&euro; 8,19</p>
                     <p>The &quot;Perpetual Testing Initiative&quot; has been expanded to allow you to design co-op puzzles for you and your friends!</p>
-                    <a href="#" class="knop">Bestellen</a>
+                    <a href="bestellen.php" class="knop">Bestellen</a>
                 </div>
             </div>
         </div> <!-- einde content -->

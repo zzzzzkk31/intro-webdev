@@ -13,8 +13,8 @@
         <div id="header">
             <h1>Steam Key Watcher</h1>
             <ul id="menu">
-                <li><a href="index.html">Home</a></li>
-                <li><a href="index.html">Games</a></li>
+                <li><a href="index.php">Home</a></li>
+                <li><a href="index.php">Games</a></li>
                 <li><a href="#">Contact</a></li>
             </ul>
         </div> <!-- einde header -->
@@ -28,42 +28,42 @@
                     <img src="images/postal2.jpg" alt="Postal 2">
                     <h3>Postal 2</h3>
                     <p class="prijs">&euro; 9,99</p>
-                    <a href="detail.html" class="knop">Bekijk</a>
+                    <a href="detail.php" class="knop">Bekijk</a>
                 </div>
 
                 <div class="product">
                     <img src="images/portal2.jpg" alt="Portal 2">
                     <h3>Portal 2</h3>
                     <p class="prijs">&euro; 8,19</p>
-                    <a href="detail2.html" class="knop">Bekijk</a>
+                    <a href="detail2.php" class="knop">Bekijk</a>
                 </div>
 
                 <div class="product">
                     <img src="images/cs2.jpg" alt="Counter-Strike 2">
                     <h3>Counter-Strike 2</h3>
                     <p class="prijs">&euro; 0,00</p>
-                    <a href="detail1.html" class="knop">Bekijk</a>
+                    <a href="detail1.php" class="knop">Bekijk</a>
                 </div>
 
                 <div class="product">
                     <img src="images/left4dead.jpg" alt="Left 4 Dead 2">
                     <h3>Left 4 Dead 2</h3>
                     <p class="prijs">&euro; 9,75</p>
-                    <a href="detail3.html" class="knop">Bekijk</a>
+                    <a href="detail3.php" class="knop">Bekijk</a>
                 </div>
 
                 <div class="product">
                     <img src="images/halflife2.jpg" alt="Half-Life 2">
                     <h3>Half-Life 2</h3>
                     <p class="prijs">&euro; 9,75</p>
-                    <a href="detail4.html" class="knop">Bekijk</a>
+                    <a href="detail4.php" class="knop">Bekijk</a>
                 </div>
 
                 <div class="product">
                     <img src="images/tf2.jpg" alt="Team Fortress 2">
                     <h3>Team Fortress 2</h3>
                     <p class="prijs">&euro; 0,00</p>
-                    <a href="detail5.html" class="knop">Bekijk</a>
+                    <a href="detail5.php" class="knop">Bekijk</a>
                 </div>
             </div> <!-- einde producten -->
 

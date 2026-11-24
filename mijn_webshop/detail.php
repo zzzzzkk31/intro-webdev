@@ -13,14 +13,14 @@
         <div id="header">
             <h1>Steam Key Watcher</h1>
             <ul id="menu">
-                <li><a href="index.html">Home</a></li>
-                <li><a href="index.html">Games</a></li>
+                <li><a href="index.php">Home</a></li>
+                <li><a href="index.php">Games</a></li>
                 <li><a href="#">Contact</a></li>
             </ul>
         </div> <!-- einde header -->
 
         <div id="content">
-            <a href="index.html">&larr; Terug naar alle games</a>
+            <a href="index.php">&larr; Terug naar alle games</a>
 
             <div class="detail">
                 <img src="images/postal2.jpg" alt="Postal 2">
@@ -28,7 +28,7 @@
                     <h2>Postal 2</h2>
                     <p class="prijs">&euro; 9,99</p>
                     <p>Live a week in the life of &quot;The POSTAL Dude&quot;; a hapless everyman just trying to check off some chores. Buying milk, returning an overdue library book, getting Gary Coleman's autograph, what could possibly go wrong?</p>
-                    <a href="#" class="knop">Bestellen</a>
+                    <a href="bestellen.php" class="knop">Bestellen</a>
                 </div>
             </div>
         </div> <!-- einde content -->
